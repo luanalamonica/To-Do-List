@@ -45,4 +45,4 @@ Para executar a aplicação localmente, siga os seguintes passos:
    ```bash
    npm start
 
-5. Abra o navegador e acesse http://localhost:3000.
+5. Abra o navegador e acesse: http://localhost:3000.
