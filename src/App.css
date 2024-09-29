@@ -1,0 +1,161 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Sans-Serif', Arial, sans-serif;
+  background-color: #323232;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Muda o alinhamento para o início */
+  height: 100vh;
+  overflow-y: auto; /* Barra de rolagem vertical */
+}
+
+/* Estilização do título */
+.main-title {
+  font-size: 32px; /* Tamanho da fonte */
+  font-weight: bold;
+  color: white;
+  text-align: center; /* Centraliza o texto */
+  text-transform: uppercase;
+  margin: 30px auto; /* Margem automática para centralizar verticalmente */
+  padding: 20px 10px; /* Aumente o padding */
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  border-radius: 10px;
+  width: 100%;
+  max-width: 350px;
+  overflow: hidden; /* Garante que nada saia do contêiner */
+  display: flex; /* Necessário para centralização do conteúdo */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente se houver altura */
+}
+
+
+/* Estilo do contêiner principal */
+.app {
+  background-color: #ffffffe2;
+  padding: 40px 25px; /* Aumente o padding superior e inferior */
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  overflow-y: auto; /* Adicionei para permitir rolagem */
+}
+
+/* Seção de input */
+.input-section {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Estilo do input de nova tarefa */
+input {
+  width: 100%;
+  padding: 18px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #242527;
+  outline: none;
+}
+
+/* Botão de adicionar tarefa */
+button {
+  padding: 10px;
+  background-color: #cacaca; 
+  color: white;
+  font-size: 24px;
+  border: none;
+  border-radius: 50%; /* Formato circular */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #6f6f6f; 
+  transform: scale(1.1);
+}
+
+/* Botão de alternar visualização */
+.toggle-button {
+  margin: 10px 0;
+  padding: 5px 10px;
+  background-color: #b48ed0;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.toggle-button:hover {
+  background-color: #a26bca;
+}
+
+/* Estilo da lista de tarefas */
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Tarefa concluída */
+.task-item.completed {
+  background-color: #e0ffe0;
+  border: 1px solid #4caf50;
+  text-decoration: line-through;
+  color: #4caf50;
+}
+
+/* Estilo dos ícones de ação */
+.actions button {
+  background: none;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: transform 0.2s;
+}
+
+.actions button:hover {
+  transform: scale(1.2);
+}
+
+/* Responsividade */
+@media (max-width: 500px) {
+  .app {
+    width: 90%;
+  }
+
+  .task-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .actions {
+    margin-top: 10px;
+  }
+}
