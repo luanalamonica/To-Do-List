@@ -49,4 +49,4 @@ Para executar a aplicação localmente, siga os seguintes passos:
    
 ## Contato
 
-Para mais informações, entre em contato através do email: seu-email@example.com.
+Para mais informações, entre em contato através do email: luanalcbertoli11@gmail.com
