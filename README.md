@@ -46,3 +46,7 @@ Para executar a aplicação localmente, siga os seguintes passos:
    npm start
 
 5. Abra o navegador e acesse: http://localhost:3000.
+   
+## Contato
+
+Para mais informações, entre em contato através do email: seu-email@example.com.
