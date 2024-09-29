@@ -46,6 +46,9 @@ Para executar a aplicação localmente, siga os seguintes passos:
    npm start
 
 5. Abra o navegador e acesse: http://localhost:3000.
+
+## Demonstração
+Para uma visão geral da aplicação, você pode assistir ao GIF explicativo disponível neste link: Demonstração da To-Do List.
    
 ## Contato
 
