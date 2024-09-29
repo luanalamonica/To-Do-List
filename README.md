@@ -32,3 +32,17 @@ Para executar a aplicação localmente, siga os seguintes passos:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/to-do-list.git
+   
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd to-do-list
+   
+3. Instale as dependências:
+   ```bash
+   npm install
+
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm start
+
+5. Abra o navegador e acesse http://localhost:3000.
