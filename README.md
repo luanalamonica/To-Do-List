@@ -48,7 +48,9 @@ Para executar a aplicação localmente, siga os seguintes passos:
 5. Abra o navegador e acesse: http://localhost:3000.
 
 ## Demonstração
-Para uma visão geral da aplicação, você pode assistir ao GIF explicativo: ![Demonstração da To-Do List](https://github.com/luanalamonica/To-Do-List/blob/main/Desafio-CoteFacil.gif?raw=true)
+Para uma visão geral da aplicação, você pode assistir ao GIF explicativo:
+
+![Demonstração da To-Do List](https://github.com/luanalamonica/To-Do-List/blob/main/Desafio-CoteFacil.gif?raw=true)
 
    
 ## Contato
