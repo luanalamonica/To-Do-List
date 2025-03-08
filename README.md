@@ -51,8 +51,3 @@ Para executar a aplicação localmente, siga os seguintes passos:
 Para uma visão geral da aplicação, você pode assistir ao GIF explicativo:
 
 ![Demonstração da To-Do List](https://github.com/luanalamonica/To-Do-List/blob/main/Desafio-CoteFacil.gif?raw=true)
-
-   
-## Contato
-
-Para mais informações, entre em contato através do email: luanalcbertoli11@gmail.com
